@@ -67,12 +67,12 @@ section{
 .main-content{
   text-align: center;
 }
-.first-paragraph{
+.first-paragraph,.first-article-section,.third-article-section{
   color:white;
  background-color:#926239;
  
 }
-.second-paragraph{
+.second-paragraph,.second-article-section{
   color:#926239;
   background-color: #f4f4f4;
 }
@@ -82,3 +82,11 @@ section{
   font-size: 20px;
   line-height: 1.6;
 }
+.first-article-section,.second-article-section,.third-article-section{
+  display:inline-block;
+
+  width: 33.33%;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
