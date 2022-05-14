@@ -1,0 +1,45 @@
+body{
+ 
+background-image: url(../img/beachshowcase.jpg);
+background-position: right;
+background-repeat: no-repeat;
+object-fit: cover;
+height: 100vh;
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+  
+ 
+
+ 
+}
+.welcome-page-header,.welcome-text,.button-link{
+  display: block;
+  color: #926239;
+  
+  text-align: center;
+
+  margin: 7px;
+  
+  overflow:hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.welcome-page-header{
+  font-size: 50px;
+  padding-top:45vh;
+ 
+
+}
+.welcome-text{
+  font-size: 20px;
+}
+.button-link{
+ 
+  text-decoration: none;
+  font-size: 20px;
+
+  border: 1px solid #926239;
+ 
+ 
+}
